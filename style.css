@@ -1,0 +1,102 @@
+html,
+body {
+    margin: auto;
+    padding: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.315);
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 15px;
+    background-color: #2168ff;
+}
+
+header {
+    background-color: #2168ff;
+    color: #ffffff;
+    margin: -30px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+a {
+    color: #ffffff;
+}
+
+div.header1 {
+    background-color: #2168ff;
+    padding: 2%;
+}
+
+div.nav1 {
+    background-color: #1c54cc;
+    padding: 10px;
+    margin: -1.05%;
+}
+
+nav ul {
+    margin-inline: 20%;
+    padding: auto;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+    background-color: #1c54cc;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+}
+
+p,
+li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+nav,
+footer {
+    padding: 1%;
+}
+
+
+main {
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.705);
+    text-align: center;
+}
+
+p.quem {
+    display: f;
+}
+
+div.divPerfil {
+    
+    display: flex;
+}
+
+p.textoPerfil {
+    margin: 1%;
+    text-align: justify;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.212);
+    border-radius: 20px;
+    padding: 2%;
+}
+
+img.perfil {
+    height: 220px;
+    border-radius: 12px;
+    box-shadow: 2px 3px 3px 0px rgb(34, 147, 155);
+}
+
+footer {
+    text-align: center;
+    background-color: #1c54cc;
+
+}
