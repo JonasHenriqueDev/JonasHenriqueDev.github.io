@@ -8,6 +8,14 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
 html {
     font-size: 15px;
     background-color: #2168ff;
@@ -21,10 +29,6 @@ header {
 
 header h1 {
     text-align: center;
-}
-
-a {
-    color: #ffffff;
 }
 
 div.header1 {
@@ -76,7 +80,7 @@ p.quem {
 }
 
 div.divPerfil {
-    
+
     display: flex;
 }
 
@@ -93,6 +97,35 @@ img.perfil {
     height: 220px;
     border-radius: 12px;
     box-shadow: 2px 3px 3px 0px rgb(34, 147, 155);
+    
+}
+
+div.projetos {
+    
+    background-color: rgba(0, 0, 0, 0.212);
+    border-radius: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+
+}
+
+p.projetos {
+    padding-top: 20px;
+}
+
+ul.projetos {
+
+    list-style-type: none;
+    flex: 2;
+    text-align: justify;
+    padding: 20px;
+}
+
+li.projetos {
+    font-size: 19px;
+    display: list-item;
+    flex: 1;
+    margin-bottom: 20px;
 }
 
 footer {
