@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #121214;
+    overflow-x: hidden;
+}
+
+header {
+    text-align: center;
+    font-size: 22px;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    font-size: 100%;
+    padding-left: 20px;
+    margin: 20px;
+    flex: 1%;
+}
+
+#nav-div {
+    border-radius: 10px;
+    width: 80%;
+    background-color: #2b2b2e;
+}
+
+#navbar-itens {
+    display: flex;
+}
+
+#titulo-sobre {
+    margin: 20px;
+}
+#imagem-perfil-div {
+    margin: 50px;
+    text-align: center;
+}
+
+#imagem-perfil {
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 24px;
+    width: 350px;
+}
+
+#sobre {
+    margin-inline: 30%;
+    padding: 20px;
+    background-color: #2b2b2e;
+    border-radius: 10px;
+}
