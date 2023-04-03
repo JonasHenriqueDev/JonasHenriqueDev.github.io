@@ -9,6 +9,7 @@ body {
     color: white;
     background-color: #121214;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -38,6 +39,20 @@ li {
     flex: 1%;
 }
 
+footer {
+    margin-top: 20px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: #2b2b2e3f;
+}
+
+footer {
+    margin-inline: 20px
+}
+
 #nav-div {
     border-radius: 10px;
     width: 80%;
@@ -46,11 +61,13 @@ li {
 
 #navbar-itens {
     display: flex;
+    font-size: 20px;
 }
 
 #titulo-sobre {
     margin: 20px;
 }
+
 #imagem-perfil-div {
     margin: 50px;
     text-align: center;
@@ -63,8 +80,39 @@ li {
 }
 
 #sobre {
-    margin-inline: 30%;
+    margin-inline: 400px;
+    margin-bottom: 50px;
     padding: 20px;
     background-color: #2b2b2e;
+    font-size: 20px;
     border-radius: 10px;
+}
+
+#rodape {
+    display: flex;
+    background-color: #2b2b2e;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#copy {
+    padding-top: 20px;
+}
+
+#rodape-texto {
+    color: rgba(255, 255, 255, 0.856);
+    padding: 1%;
+    margin-inline: auto;
+}
+
+#redes {
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    margin-inline: end;
+}
+
+#redes-itens {
+    padding: 5px;
 }
